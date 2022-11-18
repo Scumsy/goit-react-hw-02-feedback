@@ -1,18 +1,22 @@
-export const FeedbackOptions = ({ options, onLeaveFeedback }) => {
-  console.log(onLeaveFeedback);
-  console.log(options);
+import PropTypes from 'prop-types';
+import { FeedbackButton } from './FeedbackOptions.styled';
+
+export const FeedbackOptions = ({ onLeaveFeedback }) => {
   return (
     <>
-      <h1>Please leave feedback</h1>
-      <button value={'good'} onClick={onLeaveFeedback}>
+      <FeedbackButton value={'good'} onClick={onLeaveFeedback}>
         Good
-      </button>
-      <button value={'neutral'} onClick={onLeaveFeedback}>
+      </FeedbackButton>
+      <FeedbackButton value={'neutral'} onClick={onLeaveFeedback}>
         Neutral
-      </button>
-      <button value={'bad'} onClick={onLeaveFeedback}>
+      </FeedbackButton>
+      <FeedbackButton value={'bad'} onClick={onLeaveFeedback}>
         Bad
-      </button>
+      </FeedbackButton>
     </>
   );
+};
+
+FeedbackOptions.propTypes = {
+  onLeaveFeedback: PropTypes.func.isRequired,
 };
