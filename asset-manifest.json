@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Scumsy/goit-react-hw-02-feedback/static/css/main.7acaea2f.css",
-    "main.js": "/Scumsy/goit-react-hw-02-feedback/static/js/main.52328827.js",
+    "main.js": "/Scumsy/goit-react-hw-02-feedback/static/js/main.de1d8589.js",
     "index.html": "/Scumsy/goit-react-hw-02-feedback/index.html",
     "main.7acaea2f.css.map": "/Scumsy/goit-react-hw-02-feedback/static/css/main.7acaea2f.css.map",
-    "main.52328827.js.map": "/Scumsy/goit-react-hw-02-feedback/static/js/main.52328827.js.map"
+    "main.de1d8589.js.map": "/Scumsy/goit-react-hw-02-feedback/static/js/main.de1d8589.js.map"
   },
   "entrypoints": [
     "static/css/main.7acaea2f.css",
-    "static/js/main.52328827.js"
+    "static/js/main.de1d8589.js"
   ]
 }
